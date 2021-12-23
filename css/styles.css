@@ -1012,6 +1012,12 @@ margin-bottom: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.modal-check-text span:hover,
+.modal-check:focus + .modal-check-text span{
+  border-color:var(--accent-color);
 }
 
 .icon-check {
